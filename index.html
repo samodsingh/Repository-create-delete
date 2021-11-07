@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github API</title>
+    <style>
+        #table,th,td{
+           border-collapse: collapse;
+           border: 1px solid; 
+           margin: auto;
+        }
+        #table{
+           width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Github API</h1>
+    <div>
+
+        <label>
+          Typing data :-  <input id="inputdata" type="text" placeholder="Enter data">
+        </label>
+        <button id="btn" onclick="createRepo()">Create Reop</button>
+        <button id="getbtn" onclick="getAllRepo()">Get Repo</button>
+    </div>
+    <p id="demo"></p>
+  <table id="table">
+     <tr>
+         <th>Repo-ID</th>         
+         <th>Repo-Name</th>
+         <th>Node_ID</th>
+         <th>Repo-Delete</th>
+     </tr>   
+
+
+  
+                    
+</table>
+<h2 id="nodata" style="text-align: center;">No data</h2>
+
+    
+<script src="./script.js"></script>
+   
+</body>
+</html>
